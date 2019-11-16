@@ -3,9 +3,9 @@
 function theBeatlesPlay(musicians, instruments){
   var list = [];
   for(var i = 0; i<musicians.length; i++){
-    list.push(`${musicians[i]} plays ${instruments[i]}`)
+    list.push(`${musicians[i]} plays ${instruments[i]}`);
   }
-  return list
+  return list;
 }
 
 function johnLennonFacts(facts){
@@ -14,5 +14,7 @@ function johnLennonFacts(facts){
     facts[i] = facts[i] +  "!!!";
     i++;
   }
-  return facts
+  return facts;
 }
+
+
